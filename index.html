@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
 	<link rel="stylesheet" href="assets/css/style.css">
-    <!-- <link rel="shortcut icon" href="assets/ico/favicon.png"> -->
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 </head>
 <body>
 	<nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
@@ -53,7 +53,7 @@
 	                </div>
 				</div>
 				<div class="row">
-	                <p id="eventText">Anywhere from Homecoming, Prom , Weddings, and even Wine Tours. Ride with style in our limo.</p>
+	                <p id="eventText">Anywhere from Homecoming, Prom , Weddings, and even Wine Tours. Ride in style with our limo.</p>
 				</div>
 				<div class="row">
 					<div class="col events section-description ">
@@ -61,25 +61,26 @@
 					</div>
 				</div>
 				<div class="row">
-	                <table id="priceTable">
-						<tr>
-							<th></th>
-							<th class="thcontent">1st Hour</th>
-							<th class="thcontent">Additional Hours</th>
-						</tr>
-						<tr>
-							<td>In town</td>
-							<td>$100</td>
-							<td>$50 per hour</td>
-						</tr>
-						<tr>
-							<td>Out of town</td>
-							<td>$100</td>
-							<td>$75 per hour</td>
-						</tr>
-					</table>
+					<div class="col-md-6">
+					<ul class="price">
+						<li class="header">In Town</li>
+						<li class="listTitle">First Hour</li>
+						<li class="cost">$100.00</li>
+						<li class="listTitle">Additional hours</li>
+						<li>$50.00/hr</li>
+					</ul>
 				</div>
-				<h3>Call to book at (509)-758-5416</h3>
+				<div class="col-md-6">
+					<ul class="price">
+						<li class="header">Out of Town</li>
+						<li class="listTitle">First Hour</li>
+						<li class="cost">$100.00</li>
+						<li class="listTitle">Additional hours</li>
+						<li class="cost">$75.00/hr</li>
+					</ul>
+				</div>
+			</div>
+				<h3 id="bookNum">Call to book at (509)-758-5416</h3>
 			</div>
 		</div>
 		
@@ -90,7 +91,7 @@
 	            	<div class="col-12 col-lg-7 about-us-box Left">
 	                    <div class="about-us-box-text">
 	                    	<h3>About Us</h3>
-	                    	<p class="medium-paragraph">Locally owned limo rentals in the lewis-clark valley.</p>
+	                    	<p class="medium-paragraph">Locally owned limo rentals in the Lewis-Clark valley.</p>
 	                    </div>
 	                </div>
 	                <div class="col-12 col-lg-5 about-us-box Up">
@@ -114,34 +115,34 @@
 				</div>
 				<div class="row">
 	            <div class="col-md-6">
-					<div class=" contact-box">
+					<div >
 						<iframe width='60%' height='100%' id='mapcanvas' src='https://maps.google.com/maps?q=clarkston,wa&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed' frameborder='0' marginheight='0' marginwidth='0' Secure SameSite='None'></iframe>
 						<div>
 							<h4>Contact Info:</h4>
-							<p>Phone: (509)-758-5416</p>
-							<p>Address: 617 Sycamore Clarkston,Wa.</p>
+							<p>617 Sycamore Clarkston,Wa.</p>
+							<p>(509)-758-5416</p>
 						</div>
 					</div>
 				</div>
 					<div class="col-md-6 contact-box">
-							<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+							<form id="contact_form" action="#" method="POST" class="contactForm">
 							<h4>Contact Us:</h4>
 							<div>
-								<label class="required" for="name">Your name:</label><br />
-								<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+								<label class="required" for="name">Your Name: </label>
+								<input id="name" class="input" name="name" type="text" value="">
 								<span id="name_validation" class="error_message"></span>
-						  	</div>
+							</div>
 						  	<div>
-								<label class="required" for="email">Your email:</label><br />
-								<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+								<label class="required" for="email">Your Email: </label>
+								<input id="email" class="input" name="email" type="text" value=""  />
 								<span id="email_validation" class="error_message"></span>
-						  	</div>
+							</div>
 						  	<div >
-								<label class="required" for="message">Your message:</label><br />
-								<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+								<label class="required" for="message">Your Message: </label>
+								<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea>
 								<span id="message_validation" class="error_message"></span>
 						  	</div>
-							<input id="submit_button" type="submit" value="Send email" />
+							<input id="submit_button" type="submit" value="Send">
 						</form>
 					</div>
 				</div>

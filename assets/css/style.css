@@ -1,4 +1,63 @@
-
+.price{
+	color:black;
+	list-style: none;
+	background:#fff;
+	border: 1px solid #eee;
+  	margin: 0;
+	padding: 0;
+}
+.header{
+	background:lightgrey;
+	font-size:150%;
+}
+.listTitle{
+	background:#f8f8f8;
+}
+.contact-box{
+	background:lightgrey;
+	border: 5px solid #eee;
+	border-radius: 8px;
+}
+.contact-box form{
+	padding-bottom: 2.5rem;
+	background:#f8f8f8;
+}
+.contactForm h4{
+	color:black;
+	font-weight: bold;
+	background:lightgrey;
+}
+.contactForm div{
+	color:black;
+	font-weight: bold;
+	background:#f8f8f8;
+	padding-bottom: 1.2rem;
+}
+.contactForm div label{
+	float:left;
+	padding-left: 1.2rem;
+}
+.contactForm div input{
+	width:75%;
+}
+.contactForm div textarea{
+	width:90%;
+}
+#bookNum{
+	padding-top:2rem;
+}
+#submit_button{
+	float:right;
+	background:lightgrey;
+	border:none;
+	font-size:125%;
+	width:15%;
+	border-radius: 8px;
+	border: 1px solid #eee;
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,0.19);
+	margin-bottom: 3rem;
+	margin-right: 1.5rem;
+}
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
